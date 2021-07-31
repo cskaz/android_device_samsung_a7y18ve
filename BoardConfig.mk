@@ -18,7 +18,7 @@
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := exynos5
 TARGET_SOC := exynos7885
-TARGET_BOOTLOADER_BOARD_NAME := universal7885
+TARGET_BOOTLOADER_BOARD_NAME := a7y18ve
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
@@ -38,9 +38,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos7885-a7y18ve_defconfig
+TARGET_KERNEL_CONFIG := exynos7885-a7y18jpn_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/samsung/universal7885
+TARGET_KERNEL_SOURCE := kernel/samsung/a7y18ve
 
 # Image
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/a7y18ve/mkbootimg.mk
