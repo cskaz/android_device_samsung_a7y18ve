@@ -38,12 +38,12 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos7885-a7y18lte_defconfig
+TARGET_KERNEL_CONFIG := exynos7885-a7y18ve_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/samsung/universal7885
 
 # Image
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/a7y18lte/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/a7y18ve/mkbootimg.mk
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_BASE := 0x10000000
@@ -77,10 +77,10 @@ BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # Include
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/a7y18lte/include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/a7y18ve/include
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := a7y18lte
+TARGET_OTA_ASSERT_DEVICE := a7y18ve
 
 #Ignore Missing Dependencies
 ALLOW_MISSING_DEPENDENCIES=true

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_a7y18lte.mk
+    $(LOCAL_DIR)/omni_a7y18ve.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_a7y18lte-userdebug \
-    omni_a7y18lte-user \
-    omni_a7y18lte-eng
+    omni_a7y18ve-userdebug \
+    omni_a7y18ve-user \
+    omni_a7y18ve-eng

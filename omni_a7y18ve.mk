@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_DEVICE := a7y18lte
-PRODUCT_NAME := omni_a7y18lte
-PRODUCT_MODEL := SM-A750F
+PRODUCT_DEVICE := a7y18ve
+PRODUCT_NAME := omni_a7y18ve
+PRODUCT_MODEL := SM-A750C
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
